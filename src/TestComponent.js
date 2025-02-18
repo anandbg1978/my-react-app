@@ -1,6 +1,6 @@
 import React from 'react';
 
-function App() {
+const TestComponent = () => {
   return (
     <div style={{
       display: 'flex',
@@ -15,15 +15,15 @@ function App() {
         color: '#0066cc',
         marginBottom: '1rem'
       }}>
-        My First React App
+        My First React Component
       </h1>
       <p style={{
         color: '#666666'
       }}>
-        Successfully created React app!
+        Successfully deployed to GitHub Pages!
       </p>
     </div>
   );
-}
+};
 
-export default App;
+export default TestComponent;
